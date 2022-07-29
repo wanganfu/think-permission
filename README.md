@@ -36,14 +36,14 @@ Permission::create(['name' => 'home']);
 #### 角色
 ```php
 use xiaodi\Permission\Model\Role;
-// 创建一个名为编辑的角色
+// 创建一个名为编辑的角色
 Role::create(['name' => 'writer']);
 ```
 
 #### 用户
 ```php
 use xiaodi\Permission\Model\User;
-// 创建一个名为xiaodi的用户
+// 创建一个名为xiaodi的用户
 User::create(['name' => 'xiaodi']);
 ```
 
