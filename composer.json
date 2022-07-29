@@ -1,0 +1,35 @@
+{
+    "name": "xiaodi/think-permission",
+    "description": "ThinkPHP6 权限包",
+    "authors": [
+        {
+            "name": "xiaodi",
+            "email": "liangjinbiao@live.com"
+        }
+    ],
+    "keywords": [
+        "thinkphp",
+        "thinkphp-auth"
+    ],
+    "homepage": "https://xiaodim.com/",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaodi\\Permission\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "xiaodi\\Permission\\PermissionService"
+            ],
+            "config": {
+                "permission": "config/config.php"
+            }
+        }
+    }
+}
