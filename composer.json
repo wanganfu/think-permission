@@ -1,6 +1,6 @@
 {
-    "name": "xiaodi/think-permission",
-    "description": "ThinkPHP6 权限包",
+    "name": "annon/think-permission",
+    "description": "thinkphp6 permission",
     "authors": [
         {
             "name": "xiaodi",
